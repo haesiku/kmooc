@@ -1,0 +1,35 @@
+server:
+  port: 11003
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+profiles:
+  active:
+  - default
+data:
+  rest:
+    base-path: /
+
+kafka:
+  bootstrap-servers: localhost:9092
+  
+# H2
+datasource:
+  url: jdbc:h2:mem:test
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
+
+jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+  hibernate:
+    ddl-auto: create-drop
+      
+service-urls:
+  shop-account: http://localhost:11001
+  shop-product: http://localhost:11002
+  
