@@ -1,0 +1,45 @@
+server:
+  port: 11001
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+profiles:
+  active:
+  - default
+data:
+  rest:
+    base-path: /
+
+# H2
+datasource:
+  url: jdbc:h2:mem:test
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
+  
+jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+  hibernate:
+    ddl-auto: create-drop
+ 
+ 
+  # MySQL
+  #datasource:
+  #  driver-class-name: org.mariadb.jdbc.Driver
+  #  url: jdbc:mysql://localhost:3306/example
+  #  username: root
+  #  password: 5151
+  #  sql-script-encoding: UTF-8
+  #  platform: mysql
+ 
+  #jpa:
+  #  database: mysql
+  #  generate-ddl: true
+  #  hibernate:
+  #    ddl-auto: create-drop
+  #  show-sql: true
+ 
