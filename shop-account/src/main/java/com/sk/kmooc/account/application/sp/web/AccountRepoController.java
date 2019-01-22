@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.sk.kmooc.account.domain.model.Account;
 import com.sk.kmooc.account.domain.model.Address;
-import com.sk.kmooc.account.domain.model.CreditCard;
 import com.sk.kmooc.account.domain.model.MemberType;
 import com.sk.kmooc.account.domain.model.MembershipLevelType;
 import com.sk.kmooc.account.domain.service.AccountService;

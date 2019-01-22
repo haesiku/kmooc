@@ -10,7 +10,6 @@ import org.springframework.hateoas.config.EnableHypermediaSupport;
 
 import com.sk.kmooc.account.domain.model.Account;
 import com.sk.kmooc.account.domain.model.Address;
-import com.sk.kmooc.account.domain.model.CreditCard;
 import com.sk.kmooc.account.domain.model.MemberType;
 import com.sk.kmooc.account.domain.model.MembershipLevelType;
 import com.sk.kmooc.account.domain.service.SampleLogic;

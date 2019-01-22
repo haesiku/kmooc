@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 import com.sk.kmooc.account.domain.model.Account;
 import com.sk.kmooc.account.domain.model.Address;
-import com.sk.kmooc.account.domain.model.CreditCard;
 import com.sk.kmooc.account.domain.model.MemberType;
 import com.sk.kmooc.account.domain.model.MembershipLevelType;
 import com.sk.kmooc.account.domain.repository.AccountRepository;
@@ -25,11 +24,11 @@ public class SampleLogic {
 		account.setMemberType(MemberType.BUYER);
 		account.setMembershipLevel(MembershipLevelType.SILVER);
 		
-		CreditCard creditCard = new CreditCard();
+/*		CreditCard creditCard = new CreditCard();
 		creditCard.setCardNumber("1234-5677-9012-3456");
 		creditCard.setValidThru("1120");;
 		account.setCreditCard(creditCard);
-		
+*/		
 		Address address = new Address();
 		address.setHomeAddress("Hansung Feel House");
 		address.setZipCode(13457);

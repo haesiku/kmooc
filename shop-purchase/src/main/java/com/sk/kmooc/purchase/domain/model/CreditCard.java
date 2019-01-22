@@ -1,4 +1,4 @@
-package com.sk.kmooc.account.domain.model;
+package com.sk.kmooc.purchase.domain.model;
 
 import javax.persistence.Embeddable;
 
