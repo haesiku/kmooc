@@ -24,11 +24,11 @@ public class SampleLogic {
 		account.setMemberType(MemberType.BUYER);
 		account.setMembershipLevel(MembershipLevelType.SILVER);
 		
-/*		CreditCard creditCard = new CreditCard();
-		creditCard.setCardNumber("1234-5677-9012-3456");
-		creditCard.setValidThru("1120");;
-		account.setCreditCard(creditCard);
-*/		
+//		CreditCard creditCard = new CreditCard();
+//		creditCard.setCardNumber("1234-5677-9012-3456");
+//		creditCard.setValidThru("1120");;
+//		account.setCreditCard(creditCard);
+		
 		Address address = new Address();
 		address.setHomeAddress("Hansung Feel House");
 		address.setZipCode(13457);

@@ -6,12 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
-import org.springframework.hateoas.config.EnableHypermediaSupport;
 
-import com.sk.kmooc.account.domain.model.Account;
-import com.sk.kmooc.account.domain.model.Address;
-import com.sk.kmooc.account.domain.model.MemberType;
-import com.sk.kmooc.account.domain.model.MembershipLevelType;
 import com.sk.kmooc.account.domain.service.SampleLogic;
 
 import springfox.documentation.spring.data.rest.configuration.SpringDataRestConfiguration;
@@ -30,7 +25,7 @@ public class AccountApplication {
 		
 		return (args) -> {
 			
-			sampleLogic.generateSampleData();
+			//sampleLogic.generateSampleData();
 		};
 	}
 }

@@ -17,5 +17,5 @@ public class AccountLogic implements AccountService {
 
 		return accountRepository.findByName(name);
 	}
-
 }
+
