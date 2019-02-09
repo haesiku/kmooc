@@ -23,3 +23,4 @@ public class Product {
 	private Money price;
 	private ProductDescription productDescription;
 }
+

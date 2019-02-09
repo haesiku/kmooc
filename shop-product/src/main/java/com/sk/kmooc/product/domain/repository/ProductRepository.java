@@ -11,3 +11,4 @@ public interface ProductRepository extends PagingAndSortingRepository<Product, L
 
 	Product findByName(@Param("name") String name);
 }
+

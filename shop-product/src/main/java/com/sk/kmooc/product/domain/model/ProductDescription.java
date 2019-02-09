@@ -12,7 +12,8 @@ import lombok.NoArgsConstructor;
 @Data
 public class ProductDescription {
 
-	private ColorType color;
-	private SizeType Size;
+	private ColorType colorType;
+	private SizeType SizeType;
 	
 }
+

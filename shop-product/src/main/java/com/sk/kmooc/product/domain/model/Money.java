@@ -15,3 +15,4 @@ public class Money {
 
 	private int value;
 }
+

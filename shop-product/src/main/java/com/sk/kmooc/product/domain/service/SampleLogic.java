@@ -23,15 +23,15 @@ public class SampleLogic {
 		// Product #1 : 
 		Product product = new Product();
 		
-		product.setName("Pants Set");
+		product.setName("Long-sleeved shirt");
 		
 		Money price = new Money();
 		price.setValue(12000);
 		product.setPrice(price);
 		
 		ProductDescription description = new ProductDescription();
-		description.setColor(ColorType.NAVY);
-		description.setSize(SizeType.M);
+		description.setColorType(ColorType.NAVY);
+		description.setSizeType(SizeType.M);
 		product.setProductDescription(description);
 
 		productRepository.save(product);
