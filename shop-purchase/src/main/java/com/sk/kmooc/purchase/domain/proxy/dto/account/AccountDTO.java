@@ -31,7 +31,6 @@ public class AccountDTO {
 	private String name;
 	private MemberType memberType;
 	private MembershipLevelType membershipLevel;
-	private CreditCard creditCard;
 	private Address address;
 	private String email;
 

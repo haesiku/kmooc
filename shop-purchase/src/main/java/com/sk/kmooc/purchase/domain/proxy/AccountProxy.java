@@ -52,3 +52,4 @@ public class AccountProxy {
 		AccountDTO findAccount(@RequestParam(value="name", required=true) String name);
 	}
 }
+
