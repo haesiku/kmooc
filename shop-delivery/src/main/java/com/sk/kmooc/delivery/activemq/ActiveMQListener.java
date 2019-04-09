@@ -33,10 +33,7 @@ public class ActiveMQListener { // implements MessageListener {
 
 	@JmsListener(destination = "${jms.PurchaseTopic}")//, subscription = "purchaseListener")
 	public void receiveMessage(Object event) throws JMSException {
-		
-		System.out.println("=================================================================Listener : " + event.toString());
 
-		Object obj = new ActiveMQTextMessage();	
 		ActiveMQTextMessage msg = (ActiveMQTextMessage)event;
 		System.out.println("=================================================================Listener : " + msg.getText());
 		
