@@ -26,6 +26,8 @@ public class AccountRepoController {
 
  	@GetMapping(value="{name}")
 	public Account findByName(@PathVariable("name") String name) {
+// 	@GetMapping(value="{id}")
+//	public Account findById(@PathVariable("id") Long id) {
  		
 // 		Account account = new Account();
 // 		account.setId(1L);

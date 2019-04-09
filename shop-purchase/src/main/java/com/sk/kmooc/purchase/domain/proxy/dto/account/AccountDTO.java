@@ -1,8 +1,5 @@
 package com.sk.kmooc.purchase.domain.proxy.dto.account;
 
-
-import java.util.Date;
-
 import com.sk.kmooc.purchase.domain.model.MembershipLevelType;
 
 import lombok.AllArgsConstructor;
@@ -13,11 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-
-/*@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor*/
 
 @Getter
 @Setter
@@ -33,6 +25,5 @@ public class AccountDTO {
 	private MembershipLevelType membershipLevel;
 	private Address address;
 	private String email;
-
-	
 }
+

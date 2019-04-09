@@ -14,4 +14,5 @@ public class PurchaseItem {
 
 	private String productName;
 	private Money price;
+	private Long count;
 }

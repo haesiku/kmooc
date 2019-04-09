@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Embeddable
 @Data
 public class CreditCard {
+	
 	private String cardNumber;
 	private String validThru;
 }

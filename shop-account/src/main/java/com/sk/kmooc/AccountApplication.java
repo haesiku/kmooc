@@ -25,7 +25,7 @@ public class AccountApplication {
 		
 		return (args) -> {
 			
-			//sampleLogic.generateSampleData();
+			sampleLogic.generateSampleData();
 		};
 	}
 }

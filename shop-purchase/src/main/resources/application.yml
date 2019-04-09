@@ -6,6 +6,11 @@ spring:
     console:
       enabled: true
       path: /h2-console
+  activemq:
+    broker-url: tcp://localhost:61616
+jms:
+  PurchaseTopic: PurchaseTopic
+#     pub-sub-domain: true
 
 profiles:
   active:
@@ -14,8 +19,8 @@ data:
   rest:
     base-path: /
 
-kafka:
-  bootstrap-servers: localhost:9092
+#kafka:
+#  bootstrap-servers: localhost:9092
   
 # H2
 datasource:
@@ -32,4 +37,3 @@ jpa:
 service-urls:
   shop-account: http://localhost:11001
   shop-product: http://localhost:11002
-  

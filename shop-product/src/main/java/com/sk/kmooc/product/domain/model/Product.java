@@ -1,5 +1,6 @@
 package com.sk.kmooc.product.domain.model;
 
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -21,6 +22,7 @@ public class Product {
 
 	private String name;
 	private Money price;
+	
 	private ProductDescription productDescription;
 }
 

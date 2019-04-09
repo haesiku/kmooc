@@ -19,7 +19,7 @@ public class Delivery {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
-	private int purchaseNumber;
+	private Long purchaseNumber;
 	private Recipient recipient;
 	private OrderedProduct orderedProduct;
 	private DeliveryStatusType deliveryStatus;

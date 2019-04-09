@@ -4,5 +4,5 @@ public enum MembershipLevelType {
 
 	VIP,
 	GOLD,
-	SILVER
+	SILVER 
 }

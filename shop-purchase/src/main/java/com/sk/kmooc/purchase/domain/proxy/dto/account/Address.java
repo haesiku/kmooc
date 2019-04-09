@@ -13,5 +13,5 @@ import lombok.NoArgsConstructor;
 public class Address {
 
 	private String homeAddress;
-	private int zipCode;
+	private int zipCode; 
 }

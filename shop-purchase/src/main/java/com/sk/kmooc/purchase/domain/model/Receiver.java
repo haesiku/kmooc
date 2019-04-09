@@ -15,5 +15,4 @@ public class Receiver {
 	private String recevierName;
 	private String address;
 	private int zipCode;
-
 }

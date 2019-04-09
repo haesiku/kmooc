@@ -16,7 +16,7 @@ import com.sk.kmooc.purchase.domain.proxy.dto.product.ProductDTO;
 
 @Service
 public class ProductProxy {
-
+ 
 	@Autowired
 	ProductDTOClient productDTOClient;
 	
@@ -52,3 +52,4 @@ public class ProductProxy {
 		ProductDTO findProduct(@RequestParam(value="name", required=true) String name);
 	}
 }
+

@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 @Data
 public class OrderedProduct {
 
-	private int orderNumber;
+	private Long orderNumber;
 	private String orderProductName; 
 }

@@ -7,24 +7,31 @@ spring:
       enabled: true
       path: /h2-console
 
-  profiles:
-    active:
-    - default
-  data:
-    rest:
-      base-path: /
+  activemq:
+    broker-url: tcp://localhost:61616
+jms:
+  PurchaseTopic: PurchaseTopic
+  pub-sub-domain: true
 
-  # H2
-  datasource:
-    url: jdbc:h2:mem:test
-    driverClassName: org.h2.Driver
-    username: sa
-    password:
+
+profiles:
+  active:
+  - default
+data:
+  rest:
+    base-path: /
+
+# H2
+datasource:
+  url: jdbc:h2:mem:test
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
   
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: create-drop
+jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+  hibernate:
+    ddl-auto: create-drop
       
 service-urls:
   shop-account: /v1/kmmoc/account

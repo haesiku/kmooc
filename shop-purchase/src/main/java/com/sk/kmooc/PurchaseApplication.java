@@ -31,7 +31,8 @@ public class PurchaseApplication {
 		
 		return (args) -> {
 			
-			orderLogic.Order(1L, "11001", "Ryu Haesik", "Pants Set");
+			orderLogic.Order(1L, "11001", "Ryu Haesik", "Long-sleeved shirt");
 		};
 	}
 }
+

@@ -12,5 +12,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class Money {
 
-	private int value;
+	private int value; 
 }
